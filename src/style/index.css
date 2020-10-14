@@ -1,5 +1,6 @@
 body,
-html {
+html,
+figure {
   margin: 0;
   padding: 0;
 }
@@ -19,8 +20,13 @@ ul {
   padding: 0;
 }
 
+a {
+  text-decoration: underline;
+}
+
 .blog-header {
   padding: 10px 4%;
+  margin-bottom: 20px;
   line-height: 50px;
   background-color: #262626;
   color: #a7aeb6;
@@ -31,4 +37,30 @@ ul {
 .blog-menu {
   display: flex;
   justify-content: space-between;
+}
+
+.blog-content {
+  padding: 0 4%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-article {
+  column-count: 2;
+  column-gap: 30px;
+  margin: 0 30px;
+}
+
+.blog-article figure {
+  break-inside: avoid;
+  margin: 0;
+}
+
+.blog-article-photo {
+  height: 230px;
+  overflow: hidden;
+}
+
+.blog-article-image {
+  width: 100%;
 }

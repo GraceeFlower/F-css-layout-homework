@@ -26,32 +26,36 @@
         </ul>
       </nav>
     </header>
-    <main>
-      <section>
-        <h2>About</h2>
-        <p>
-          Etiam port asem malesuada magna mollis euismod.Cras matt is consectetur purus sita met fermentum.Aenean
-          lacinia bibendum null as edcon secte tu
-        </p>
-      </section>
-      <section>
-        <h2>Archives</h2>
-        <ul>
-          <li><a>January 2020</a></li>
-          <li><a>December 2019</a></li>
-          <li><a>November 2019</a></li>
-          <li><a>October 2019</a></li>
-          <li><a>September 2019</a></li>
-          <li><a>August 2019</a></li>
-          <li><a>July 2019</a></li>
-          <li><a>June 2019</a></li>
-          <li><a>May 2019</a></li>
-          <li><a>April 2019</a></li>
-        </ul>
-      </section>
-      <section>
+    <main class="blog-content">
+      <aside class="blog-aside">
+        <section class="blog-about">
+          <h2>About</h2>
+          <p>
+            Etiam port asem malesuada magna mollis euismod.Cras matt is consectetur purus sita met fermentum.Aenean
+            lacinia bibendum null as edcon secte tu
+          </p>
+        </section>
+        <section class="blog-archive">
+          <h2>Archives</h2>
+          <ul>
+            <li><a>January 2020</a></li>
+            <li><a>December 2019</a></li>
+            <li><a>November 2019</a></li>
+            <li><a>October 2019</a></li>
+            <li><a>September 2019</a></li>
+            <li><a>August 2019</a></li>
+            <li><a>July 2019</a></li>
+            <li><a>June 2019</a></li>
+            <li><a>May 2019</a></li>
+            <li><a>April 2019</a></li>
+          </ul>
+        </section>
+      </aside>
+      <section class="blog-article">
         <figure>
-          <img src="" alt="photo1"/>
+          <div class="blog-article-photo">
+            <img class="blog-article-image" src="./src/static/1.jpg" alt="photo1" />
+          </div>
           <figcaption>
             <h2>Article 1</h2>
             <p>
@@ -62,9 +66,25 @@
           </figcaption>
         </figure>
         <figure>
-          <img src="" alt="photo2"/>
+          <div class="blog-article-photo">
+            <img class="blog-article-image" src="./src/static/2.jpg" alt="photo2" />
+          </div>
           <figcaption>
             <h2>Article 2</h2>
+            <p>
+              Donee sed odio dui. Cras Justo odio, dapibus ac facilists in, egestas eget quam. Vestibulum id ligula
+              porta felis euismod semper. Fusee dapibus. tellus ae cursus com modo, tortor maurís condimentum nibh,
+              ut fermentum massa justo sit a met risus.
+            </p>
+            <a>View details ></a>
+          </figcaption>
+        </figure>
+        <figure>
+          <div class="blog-article-photo">
+            <img class="blog-article-image" src="./src/static/3.jpg" alt="photo3" />
+          </div>
+          <figcaption>
+            <h2>Article 3</h2>
             <p>
               Donee id élit non mi porta gravida at eget met us Fusee dapibus. tellus ae cursus com modo, tortor
               maurls condimentum mbh. ut fermentum massa justo sit amet nsus. Etiam porta sem malesuada
@@ -80,21 +100,9 @@
             <a>View details ></a>
           </figcaption>
         </figure>
-        <figure>
-          <img src="" alt="photo3"/>
-          <figcaption>
-            <h2>Article 3</h2>
-            <p>
-              Donee sed odio dui. Cras Justo odio, dapibus ac facilists in, egestas eget quam. Vestibulum id ligula
-              porta felis euismod semper. Fusee dapibus. tellus ae cursus com modo, tortor maurís condimentum nibh,
-              ut fermentum massa justo sit a met risus.
-            </p>
-            <a>View details ></a>
-          </figcaption>
-        </figure>
       </section>
       <div class="blog-login">
-        <input type="text" placeholder="Email address" />
+        <input type="email" placeholder="Email address" />
         <input type="password" placeholder="Password" />
         <input type="checkbox" />
         <span>Remember me</span>
