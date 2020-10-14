@@ -20,7 +20,12 @@ ul {
 }
 
 .blog-header {
-  padding: 15px 50px;
+  padding: 10px 4%;
+  line-height: 50px;
+  background-color: #262626;
+  color: #a7aeb6;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .blog-menu {
