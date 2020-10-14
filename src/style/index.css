@@ -18,3 +18,12 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+.blog-header {
+  padding: 15px 50px;
+}
+
+.blog-menu {
+  display: flex;
+  justify-content: space-between;
+}
