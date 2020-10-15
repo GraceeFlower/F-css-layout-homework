@@ -56,7 +56,7 @@
           <div class="blog-article-photo">
             <img class="blog-article-image" src="./src/static/1.jpg" alt="photo1" />
           </div>
-          <figcaption>
+          <figcaption class="blog-article-detail">
             <h2>Article 1</h2>
             <p>
               Donee id élit non m porta gravida at eget metus. Fusee dapibus. telkis ac cursus commodo,
@@ -69,7 +69,7 @@
           <div class="blog-article-photo">
             <img class="blog-article-image" src="./src/static/2.jpg" alt="photo2" />
           </div>
-          <figcaption>
+          <figcaption class="blog-article-detail">
             <h2>Article 2</h2>
             <p>
               Donee sed odio dui. Cras Justo odio, dapibus ac facilists in, egestas eget quam. Vestibulum id ligula
@@ -83,7 +83,7 @@
           <div class="blog-article-photo">
             <img class="blog-article-image" src="./src/static/3.jpg" alt="photo3" />
           </div>
-          <figcaption>
+          <figcaption class="blog-article-detail">
             <h2>Article 3</h2>
             <p>
               Donee id élit non mi porta gravida at eget met us Fusee dapibus. tellus ae cursus com modo, tortor
@@ -101,13 +101,15 @@
           </figcaption>
         </figure>
       </section>
-      <div class="blog-login">
-        <input type="email" placeholder="Email address" />
-        <input type="password" placeholder="Password" />
-        <input type="checkbox" />
-        <span>Remember me</span>
-        <input type="button" value="Sign in"/>
-      </div>
+      <form class="blog-login">
+        <input class="login-email" type="email" name="login-email" placeholder="Email address" />
+        <input class="login-password" type="password" name="login-password" placeholder="Password" />
+        <div class="login-check">
+          <input id="login-check" name="login-check" type="checkbox" />
+          <label for="login-check">Remember me</label>
+        </div>
+        <button class="login-submit" type="submit">Sign in</button>
+      </form>
     </main>
     <footer></footer>
   </div>
