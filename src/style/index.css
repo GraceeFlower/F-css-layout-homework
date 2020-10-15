@@ -125,3 +125,20 @@ a:hover {
   background-color: #047bfe;
   border-radius: 4px;
 }
+
+.blog-footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  border-top: 2px solid #eaeaea;
+  height: 90px;
+  background-color: #f9f9f9;
+  color: #a6a6a6;
+}
+
+.blog-footer p {
+  margin: 0;
+  padding: 0;
+}
